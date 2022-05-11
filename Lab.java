@@ -1,6 +1,9 @@
 class Lab{
 
 	String name ; 
+	Lab(String name){
+	this.name = name;
+	}
 	void getName(){
 	
 		return name;
